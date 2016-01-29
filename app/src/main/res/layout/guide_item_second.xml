@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#00ff00"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="100dp"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/viewTextOne"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="30dp"
+            android:text="怀疑"
+
+            android:textColor="#161c27"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:id="@+id/viewTextTwo"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:text="但总有人会提出合理的"
+            android:textColor="#161c27"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+</LinearLayout>

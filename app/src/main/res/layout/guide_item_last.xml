@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ff0000"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingLeft="50dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/viewTextOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="让公正发出的"
+                android:textColor="#ffffff"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="光芒"
+                android:textColor="#ffffff"
+                android:textSize="30sp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/viewTextTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="不知不觉去感染更多人"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layGuideAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:scaleType="center"
+            android:layout_margin="20dp"
+            />
+
+        <LinearLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="20dp"
+            android:paddingBottom="5dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnToLogin"
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="20dp"
+
+                android:text="登录"
+                android:textColor="#161c27"/>
+
+            <Button
+                android:id="@+id/btnToRegister"
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:background="#b10b0b"
+                android:text="注册"
+                android:textColor="#ffffff"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/btnToMain"
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="right|center_vertical"
+            android:paddingRight="30dp"
+            android:text="随便看看>"
+            android:textColor="#161c27"/>
+    </LinearLayout>
+
+
+</LinearLayout>

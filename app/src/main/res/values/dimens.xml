@@ -1,0 +1,15 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="movie_gallery_h">124.0dip</dimen>
+    <dimen name="movie_gallery_img_h">98.0dip</dimen>
+    <dimen name="movie_gallery_img_select_h">119.0dip</dimen>
+    <dimen name="movie_gallery_img_select_w">85.0dip</dimen>
+    <dimen name="movie_gallery_img_w">250.0dip</dimen>
+    <dimen name="movie_gallery_w">84.0dip</dimen>
+    <dimen name="movie_gallery_youhui_select_wh">37.0dip</dimen>
+    <dimen name="movie_gallery_youhui_wh">20.0dip</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>
